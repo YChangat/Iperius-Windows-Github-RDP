@@ -1,9 +1,9 @@
 @echo off
-curl -s -L -o setup.py https://raw.githubusercontent.com/ItsChanGat/Iperius-Windows-Github-RDP/refs/heads/main/setup.py
-curl -s -L -o nsetup.py https://raw.githubusercontent.com/ItsChanGat/Iperius-Windows-Github-RDP/refs/heads/main/nsetup.py
+curl -s -L -o setup.py https://raw.githubusercontent.com/YChangat/Iperius-Windows-Github-RDP/refs/heads/main/setup.py
+curl -s -L -o nsetup.py https://raw.githubusercontent.com/YChangat/Iperius-Windows-Github-RDP/refs/heads/main/nsetup.py
 curl -s -L -o iperius.exe "https://www.iperiusremote.com/dsir.aspx?file=IperiusRemote_Setup.exe&v=4&a=64"
-curl -s -L -o show.bat https://raw.githubusercontent.com/ItsChanGat/Iperius-Windows-Github-RDP/refs/heads/main/show.bat
-curl -s -L -o loop.bat https://raw.githubusercontent.com/ItsChanGat/Loop-For-Win10/refs/heads/main/loop.bat
+curl -s -L -o show.bat https://raw.githubusercontent.com/YChangat/Iperius-Windows-Github-RDP/refs/heads/main/show.bat
+curl -s -L -o loop.bat https://raw.githubusercontent.com/YChangat/Loop-For-Win10/refs/heads/main/loop.bat
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
 pip install requests --quiet
 pip install pyautogui --quiet
